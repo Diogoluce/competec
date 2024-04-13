@@ -4,10 +4,21 @@
 3. Some o valor da laranja com a uva;
 */
 
-public class Exercicio2 {
-    public static void main(String[] args) {
-        // Escreva seu código aqui ⬇️
+import java.util.Scanner;
 
-        
-    }
+public class Exercicio2 {
+  public static void main(String[] args) {
+    // Escreva seu código aqui ⬇️
+
+    Scanner sc = new Scanner(System.in);
+
+    double valorLaranja = sc.nextDouble();
+    double valorUva = sc.nextDouble();
+    double soma;
+    soma = valorLaranja + valorUva;
+
+    System.out.println(soma);
+
+  }
+
 }
